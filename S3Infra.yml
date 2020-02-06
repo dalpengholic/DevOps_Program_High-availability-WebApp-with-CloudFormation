@@ -1,0 +1,57 @@
+
+Description: >
+  Made by Woojage Lim for Cloud DevOps Nanodegree 2nd project.
+  Upload ssh key into BucketForBastion to access Udagram servers.
+  Upload landing page template into BucketForUdagram.
+
+Parameters: 
+  EnvironmentName:
+    Description: Name for being used as a prefix for all resources
+    Type: String
+ 
+Resources:
+  BucketForUdagram:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: devops-project2-2020-forwebapp-lwj
+      AccessControl: PublicRead
+    DeletionPolicy: Delete
+
+  # BucketUdagramPolicy:
+  #   Type: AWS::S3::BucketPolicy
+  #   Properties:
+  #     Bucket: !Ref BucketForUdagram
+  #     PolicyDocument:
+  #       Statement:
+  #         - Effect: Allow
+  #           Action: s3:*
+  #           Resource: !Join ["", ["arn:aws:s3:::", !Ref "BucketForUdagram", "/*"]]
+  #           Principal:
+  #             AWS: "*" # <-- Udagram Webservers ARN, Developer(s) ARN
+
+  BucketForBastion:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: devops-project2-2020-forbastion-lwj
+      AccessControl: Private
+    DeletionPolicy: Delete
+
+  # BucketBastionPolicy:
+  #   Type: AWS::S3::BucketPolicy
+  #   Properties:
+  #     Bucket: !Ref BucketForBastion
+  #     PolicyDocument:
+  #       Statement:
+  #         - Sid: AllowStaticObjectDownload
+  #           Action: s3:GetObject
+  #           Effect: Allow
+  #           Resource: !Join ["", ["arn:aws:s3:::", !Ref "BucketForBastion", "/*"]]
+  #           Principal:
+  #             AWS: "*" # <-- Need Bastion Host ARN
+  #         - Sid: PutObjectAccess
+  #           Action: s3:PutObject
+  #           Effect: Allow
+  #           Resource: !Join ["", ["arn:aws:s3:::", !Ref "BucketForBastion", "/*"]]
+  #           Principal:
+  #             AWS: "*" # <-- For  Host ARN
+              
