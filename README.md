@@ -52,7 +52,7 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 
 <a name="steps"></a>
 ### Steps
-[here](https://github.com/dalpengholic/DevOps_Project2_WebApp_AWS_CloudFormation/blob/master/pics/Quick_manual.md)
+[Here](https://github.com/dalpengholic/DevOps_Project2_WebApp_AWS_CloudFormation/blob/master/pics/Quick_manual.md)
 
 <a name="file_structure"></a>
 ## File Structure
