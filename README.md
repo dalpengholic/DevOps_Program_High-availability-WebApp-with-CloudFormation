@@ -26,8 +26,7 @@ Make web servers with high-availability using CloudFormation
 
 <a name="infrastructure_diagram"></a>
 ## Infrastructure Diagram
-blah
-blah
+![diagram](https://github.com/dalpengholic/DevOps_Project2_WebApp_AWS_CloudFormation/blob/master/pics/Infra_Diagram.png)
 
 <a name="how_to_use"></a>
 ## How to use
