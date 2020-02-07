@@ -69,9 +69,9 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 │   ├── create.sh
 │   └── update.sh
 ├── pics
-│   ├── Infra_Diagram.png
-│   └── Quick_manual.md
-└── udcaity_devops2.code-workspace
+    ├── Infra_Diagram.png
+    └── Quick_manual.md
+
 ```
 
 <a name="reference"></a>
