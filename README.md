@@ -76,8 +76,13 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 
 <a name="reference"></a>
 ## Reference
-blah
-blah
+- [Introduction to AWS CloudFormation](https://learn.acloud.guru/course/intro-aws-cloudformation/dashboard)
+- [Using an IAM Role to Grant Permissions to Applications Running on Amazon EC2 Instances] (https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-ec2.html#roles-usingrole-ec2instance-get-started)
+- [In AWS, what is the difference between a role and an instance profile?] (https://www.quora.com/In-AWS-what-is-the-difference-between-a-role-and-an-instance-profile)
+- [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/questions/46199680/difference-between-iam-role-and-iam-user-in-aws/51888634#51888634)
+- [https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html] (https://docs.aws.amazon.com/IAM/latest/UserGuide/id.html)
+- [PolicyDocument vs AssumeRolePolicyDocument] (https://stackoverflow.com/questions/54320728/policydocument-vs-assumerolepolicydocument)
+- [Understanding IAM Roles in Amazon AWS](https://blog.schlomo.schapiro.org/2017/06/understanding-iam-roles-in-amazon-aws.html)
 
 <a name="license"></a>
 ## License
