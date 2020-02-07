@@ -9,7 +9,7 @@ Parameters:
   MyIP:
     Description: IP address allowed to use bastion host
     Type: String
-    Default: 86.50.146.136/32
+    Default: 86.50.146.207/32
   
   BucketForSSH:
     Description: Name of S3 bucket for storing ssh key
