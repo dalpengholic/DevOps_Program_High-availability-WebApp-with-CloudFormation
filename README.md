@@ -15,9 +15,14 @@
 
 <a name="project_goal"></a>
 ## Project Goal
-1. ETL Pipeline : Original log file of Sparkify given by Udacity is loaded in a dataframe of Apache Spark dataframe and preprocessed(extraction, transformation, and loading) to make a dataframe for a machine learning pipeline.
-2. ML pipeline : Prediction model is built and trained with the dataframe from ETL pipeline to predict potential churn users.
-3. Flask Web App : A web app contains the visual summary of a dataset used training a model and a prediction page that an user of this web can input a basic data of a Sparkify user and get a prediction result.
+Make web servers with high-availability using CloudFormation
+
+### Requirements
+- Create a custom VPC for this project. Attach IGW(Internet Gateway) to the VPC. 
+- Deploy four servers(EC2 instances) using `Launch Configuration`. Two of the servers need to be located in each of two private subnets.
+- Server specs: two vCPUs and at least 4GB of RAM. The Operating System to be used is Ubuntu 18. Allocate at least 10GB of disk space.
+- Create a S3 bucket for the severs. Attach `IAM Role` to servers to use the bucket.
+- Create a load balancer(Application Load Balancer) in public subnets. Set Load Balancer Health Check, Security Group, Target Group
 
 <a name="infrastructure_diagram"></a>
 ## Infrastructure Diagram
@@ -47,11 +52,24 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 
 <a name="steps"></a>
 ### Steps
+[here](https://github.com/dalpengholic/DevOps_Project2_WebApp_AWS_CloudFormation/blob/master/pics/Quick_manual.md)
 
 <a name="file_structure"></a>
 ## File Structure
-blah
-blah
+├── README.md
+├── files
+│   ├── After-params.json
+│   ├── BaseInfra-params.json
+│   ├── BaseInfra.yml
+│   ├── BastionInfra.yml
+│   ├── S3Infra.yml
+│   ├── Udagram.zip
+│   ├── UdagramInfra.yml
+│   ├── create.sh
+│   └── update.sh
+├── pics
+    ├── Infra_Diagram.png
+    └── Quick_manual.md
 
 <a name="reference"></a>
 ## Reference
