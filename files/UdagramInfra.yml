@@ -101,7 +101,7 @@ Resources:
   
       ImageId: ami-06d51e91cea0dac8d #Requirement: Ubuntu 18 image in US West (Oregon)
       IamInstanceProfile: !Ref UdagramInstanceProfile
-      KeyName: !Sub ${KeyForBastion}
+
       SecurityGroups:
       - Ref: UdagramServerSecGroup
       InstanceType: t2.medium #Requirement: At least 2vCPUs with 4GB RAM
