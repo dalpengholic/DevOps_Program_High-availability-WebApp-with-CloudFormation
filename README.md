@@ -81,10 +81,4 @@ blah
 
 <a name="license"></a>
 ## License
-blah
-blah
-
-<a name="acknowledgements"></a>
-## Acknowledgements
-blah
-blah
+This source code is made available under the [MIT License](https://github.com/dalpengholic/DevOps_Project2_WebApp_AWS_CloudFormation/blob/master/LICENSE).
