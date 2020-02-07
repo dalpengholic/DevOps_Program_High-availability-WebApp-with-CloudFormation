@@ -10,7 +10,6 @@
 4. [File Structure](#file_structure)
 5. [Reference](#reference)
 6. [License](#license)
-7. [Acknowledgements](#acknowledgements)
 
 
 <a name="project_goal"></a>
