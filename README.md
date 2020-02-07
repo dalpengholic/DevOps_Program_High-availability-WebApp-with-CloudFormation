@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Project Goal](#project_goal)
 2. [Infrastructure Diagram](#infrastructure_diagram)
-3. [How to use](#how_to_use)    
+3. [How to Use](#how_to_use)    
   1. [Dependency](#dependecy)
   2. [Steps](#steps)
 4. [File Structure](#file_structure)
