@@ -33,7 +33,7 @@ blah
 ## How to use
 <a name="dependency"></a>
 ### Dependency
-- AWS Command Line Interface
+- AWS Command Line Interface \ 
 Go to Terminal and activate virtual environment and execute `pip install awscli` 
 
 - AWS IAM
