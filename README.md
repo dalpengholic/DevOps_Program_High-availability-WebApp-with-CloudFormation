@@ -56,6 +56,7 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 
 <a name="file_structure"></a>
 ## File Structure
+```
 ├── README.md
 ├── files
 │   ├── After-params.json
@@ -68,8 +69,10 @@ Go to Terminal and activate virtual environment and execute `pip install awscli`
 │   ├── create.sh
 │   └── update.sh
 ├── pics
-    ├── Infra_Diagram.png
-    └── Quick_manual.md
+│   ├── Infra_Diagram.png
+│   └── Quick_manual.md
+└── udcaity_devops2.code-workspace
+```
 
 <a name="reference"></a>
 ## Reference
