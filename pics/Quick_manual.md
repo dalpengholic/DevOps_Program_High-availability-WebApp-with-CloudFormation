@@ -20,7 +20,7 @@ ex) `./create.sh S3StackPro2 S3Infra.yml After-params.json`
 
 ## 4. Create two keys of key pairs and upload one of them.
 - Go to EC2 service using AWS console. Go to `Key Pairs` under `NETWORK & SECURITY` located in left side bar.
-- Create two key pair. One is needed to access bastion host(jump box) in public subnet. The other is needed to access to web servers from the bastion host. Afte creation, two keys are automatically saved in your local environment.
+- Create two key pair. One is needed to access bastion host(jump box) in public subnet. The other is needed to access to web servers from the bastion host. After creation, two keys are automatically saved in your local environment.
 ex) The names of keys could be `ToBastion` and `ToWebServers`. In my cases, they are `Udacity_Pro2_ToBastion` and `Udacity_Pro2_ToWebServers`.
 
 - Go to S3 service using AWS console and upload `ToWebServers` key to the S3 bucket you have created already for bastion host. In my case. the bucket name is `devops-project2-2020-forbastion-lwj`. Never upload `Udacity_Pro2_ToBastion` for the safety of your network. It has to be only in your local environment.
